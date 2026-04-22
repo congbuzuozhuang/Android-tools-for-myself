@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "ms-vscode.vscode-typescript-next",
+    "ionic.ionic",
+    "formulahendry.terminal",
+    "ms-azuretools.vscode-android"
+  ],
+  "unwantedRecommendations": []
+}

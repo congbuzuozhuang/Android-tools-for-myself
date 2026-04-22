@@ -1,0 +1,39 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.cursorStyle": "line",
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/.gradle": true,
+    "**/build": true,
+    "**/.idea": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/build": true
+  },
+  "npm.enableScriptExplorerView": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "ionic.tabOrder": ["tabs", "side menus", "components"]
+}

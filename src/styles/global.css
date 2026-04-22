@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.header {
+  background: linear-gradient(135deg, #4CAF50, #81C784);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.header h1 {
+  font-size: 24px;
+}
+
+.main {
+  padding: 16px;
+}
+
+.tool-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 16px;
+  padding: 8px;
+}
+
+.tool-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.tool-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+.tool-icon {
+  font-size: 48px;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.tool-card h3 {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.tool-card p {
+  font-size: 12px;
+  color: #888;
+}

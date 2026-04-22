@@ -1,0 +1,31 @@
+{
+  "project": {
+    "name": "android-tools",
+    "path": "."
+  },
+  "permissions": {
+    "allow": [
+      "bash:npm:*",
+      "bash:node:*",
+      "bash:npx:*",
+      "bash:git:*",
+      "bash:cd:*",
+      "bash:ls:*",
+      "bash:rm:*",
+      "bash:mkdir:*",
+      "bash:cp:*",
+      "bash:mv:*",
+      "bash:cat:*",
+      "bash:echo:*",
+      "bash:grep:*",
+      "bash:find:*",
+      "bash:chmod:*",
+      "bash:unzip:*",
+      "bash:gradle:*",
+      "bash:java:*"
+    ]
+  },
+  "ui": {
+    "showToolCallResults": false
+  }
+}
